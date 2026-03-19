@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* căn giữa cả chiều dọc */
+    font-family: Arial, sans-serif;
+}
+
+/* Canvas game */
+canvas {
+    background: black;
+    border: 2px solid white;
+    
+    /* phóng to game */
+    width: 400px;
+    height: 600px;
+
+    /* hiệu ứng đẹp hơn */
+    box-shadow: 0 0 20px #00ffff;
+}
